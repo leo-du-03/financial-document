@@ -1,0 +1,20 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider             = "prisma-client-py"
+  interface            = "asyncio"
+  recursive_type_depth = 5
+}
+
+model Log {
+  id          Int      @id @default(autoincrement())
+  createdAt   DateTime @default(now())
+  tokensUsed  Int
+  timeSpent   Float
+  query       String
+  response    String
+  followup    Boolean
+}
