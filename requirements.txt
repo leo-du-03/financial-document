@@ -1,0 +1,8 @@
+llama_index==0.10.55
+openai==1.35.15
+pandas==2.2.2
+pdfkit==1.0.0
+plotly==5.22.0
+python_dateutil==2.9.0.post0
+Requests==2.32.3
+streamlit==1.36.0

@@ -1,0 +1,17 @@
+# Virtual Environments
+env/
+
+# Secrets
+secrets.toml
+.storage
+# Misc.
+**__pycache__/
+
+# Database URL
+.env
+
+# Ignore 
+node_modules/
+[0-9a-zA-Z]*-[0-9a-zA-Z]*-[0-9a-zA-Z]*-[0-9a-zA-Z]*-[0-9a-zA-Z]*
+.env
+dev.db

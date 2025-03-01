@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Times New Roman');
+
+body * {
+    font-family: 'Times New Roman', sans-serif !important;
+    font-size: 20px;
+    font-weight: 500;
+}
